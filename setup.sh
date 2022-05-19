@@ -69,6 +69,11 @@ sudo apt-get install -y postgresql postgresql-contrib
 # Install redis
 sudo apt-get install -y redis-server
 
+# Install openjdk
+sudo apt-get install openjdk-17-jdk
+
+# Install gcc g++
+sudo apt-get install gcc g++
 
 # Create ssh key
 ssh-keygen -t rsa
